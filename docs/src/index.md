@@ -12,5 +12,5 @@ Filter =  simple_filter
 
 ```@autodocs
 Modules = [TestModule]
-Filter =  t -> t <: TestModule.Major2
+Filter =  typeof(t) === DataType && t -> t <: TestModule.Major2
 ```
